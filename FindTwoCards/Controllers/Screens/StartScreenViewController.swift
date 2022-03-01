@@ -15,6 +15,10 @@ class StartScreenViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
     
     @IBAction func showPopUp() {
         // Тут вызов попапа
