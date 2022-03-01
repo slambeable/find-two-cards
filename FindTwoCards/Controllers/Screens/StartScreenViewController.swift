@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  StartScreenViewController.swift
 //  FindTwoCards
 //
 //  Created by Андрей Евдокимов on 01.03.2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class StartScreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
