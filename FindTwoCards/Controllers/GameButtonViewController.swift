@@ -11,10 +11,10 @@ class GameButtonViewController: UIButton {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        setStylesForStartButtons()
+        setGameStylesForButtons()
     }
 
-    private func setStylesForStartButtons() {
+    private func setGameStylesForButtons() {
         layer.borderColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.5).cgColor
         layer.borderWidth = 2
         
