@@ -24,6 +24,7 @@
 		6D072D4827CDA76A00835373 /* TimerProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D072D4727CDA76A00835373 /* TimerProgressViewController.swift */; };
 		6D072D4A27CDA78E00835373 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D072D4927CDA78E00835373 /* DataManager.swift */; };
 		6D072D4C27CDA79D00835373 /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D072D4B27CDA79D00835373 /* GameLogic.swift */; };
+		6D072D5027CDB6E400835373 /* GameButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D072D4F27CDB6E400835373 /* GameButtonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		6D072D4727CDA76A00835373 /* TimerProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerProgressViewController.swift; sourceTree = "<group>"; };
 		6D072D4927CDA78E00835373 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		6D072D4B27CDA79D00835373 /* GameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
+		6D072D4F27CDB6E400835373 /* GameButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameButtonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				6D072D4327CDA6BB00835373 /* CardViewController.swift */,
 				6D072D4527CDA72400835373 /* ShareViewController.swift */,
 				6D072D4727CDA76A00835373 /* TimerProgressViewController.swift */,
+				6D072D4F27CDB6E400835373 /* GameButtonViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				6D072D1D27CDA45B00835373 /* SceneDelegate.swift in Sources */,
 				6D072D4427CDA6BB00835373 /* CardViewController.swift in Sources */,
 				6D072D3C27CDA66300835373 /* SettingsScreenViewController.swift in Sources */,
+				6D072D5027CDB6E400835373 /* GameButtonViewController.swift in Sources */,
 				6D072D4A27CDA78E00835373 /* DataManager.swift in Sources */,
 				6D072D3E27CDA67900835373 /* FinalScreenViewController.swift in Sources */,
 			);

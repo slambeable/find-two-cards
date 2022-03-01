@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,15 +13,134 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="StartScreenViewController" customModule="FindTwoCards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="ze8-In-jya">
+                                <rect key="frame" x="24" y="255" width="327" height="257"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4r-Pn-OGv" customClass="GameButtonViewController" customModule="FindTwoCards" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="327" height="41"/>
+                                        <color key="backgroundColor" red="0.73333334920000004" green="0.88627451660000001" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                        <color key="tintColor" red="0.21960783" green="0.26666668059999998" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Начать игру"/>
+                                        <connections>
+                                            <segue destination="R7W-LN-7yZ" kind="presentation" id="Fif-PG-giQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8K-YC-km8" customClass="GameButtonViewController" customModule="FindTwoCards" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="72" width="327" height="41"/>
+                                        <color key="backgroundColor" red="0.73333334920000004" green="0.88627451660000001" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                        <color key="tintColor" red="0.21960783" green="0.26666668059999998" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Настройки"/>
+                                        <connections>
+                                            <segue destination="M1W-58-2jF" kind="presentation" id="B6e-FJ-KS7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBA-ET-SeJ" customClass="GameButtonViewController" customModule="FindTwoCards" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="144" width="327" height="41"/>
+                                        <color key="backgroundColor" red="0.73333334920000004" green="0.88627451660000001" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                        <color key="tintColor" red="0.21960783" green="0.26666668059999998" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Результаты"/>
+                                        <connections>
+                                            <segue destination="U9T-u2-z6R" kind="presentation" id="zF5-0n-TNt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EgS-8W-bxA" customClass="GameButtonViewController" customModule="FindTwoCards" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="216" width="327" height="41"/>
+                                        <color key="backgroundColor" red="0.73333334920000004" green="0.88627451660000001" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                        <color key="tintColor" red="0.21960783" green="0.26666668059999998" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Разработчики"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.64705884459999996" green="0.65098041299999998" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="ze8-In-jya" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="gI7-Fy-dxS"/>
+                            <constraint firstItem="ze8-In-jya" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="50" id="oK6-BS-vmt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ze8-In-jya" secondAttribute="trailing" constant="24" id="oeK-7f-wey"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="startScreenButtons" destination="X4r-Pn-OGv" collectionClass="NSMutableArray" id="Vof-iP-YHN"/>
+                        <outletCollection property="startScreenButtons" destination="C8K-YC-km8" collectionClass="NSMutableArray" id="74B-Pe-YFq"/>
+                        <outletCollection property="startScreenButtons" destination="pBA-ET-SeJ" collectionClass="NSMutableArray" id="7lh-5G-i8T"/>
+                        <outletCollection property="startScreenButtons" destination="EgS-8W-bxA" collectionClass="NSMutableArray" id="Kjs-Cx-1jW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="20" y="82"/>
+        </scene>
+        <!--Game Screen View Controller-->
+        <scene sceneID="nZp-xB-RSv">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="R7W-LN-7yZ" customClass="GameScreenViewController" customModule="FindTwoCards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k9a-JT-s7S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="wVY-Ch-Cjo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NNP-D2-5zd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="935" y="81"/>
+        </scene>
+        <!--Final Screen View Controller-->
+        <scene sceneID="9T1-vu-b2X">
+            <objects>
+                <viewController id="wXp-pr-RaW" customClass="FinalScreenViewController" customModule="FindTwoCards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YT7-Aq-ln8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="vqB-Ef-aA2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="luf-oc-5f1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1918" y="81"/>
+        </scene>
+        <!--Results Screen View Controller-->
+        <scene sceneID="j6p-EH-4Eo">
+            <objects>
+                <viewController id="U9T-u2-z6R" customClass="ResultsScreenViewController" customModule="FindTwoCards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XZP-QL-9pI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="uNP-8j-cuM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NGy-7r-Edj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="779"/>
+        </scene>
+        <!--Settings Screen View Controller-->
+        <scene sceneID="7dx-TN-QYE">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="M1W-58-2jF" customClass="SettingsScreenViewController" customModule="FindTwoCards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ng9-xl-cad">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Fgn-25-LW1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="od4-4J-za3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="-610"/>
         </scene>
     </scenes>
     <resources>
