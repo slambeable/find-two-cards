@@ -17,11 +17,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="ze8-In-jya">
-                                <rect key="frame" x="24" y="255" width="327" height="257"/>
+                                <rect key="frame" x="24" y="241" width="327" height="285"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4r-Pn-OGv" customClass="GameButtonViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="327" height="41"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="327" height="48"/>
                                         <color key="backgroundColor" red="0.73333334920000004" green="0.88627451660000001" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="9Hg-2p-iWV"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                         <color key="tintColor" red="0.21960783" green="0.26666668059999998" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -31,7 +34,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8K-YC-km8" customClass="GameButtonViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="72" width="327" height="41"/>
+                                        <rect key="frame" x="0.0" y="79" width="327" height="48"/>
                                         <color key="backgroundColor" red="0.73333334920000004" green="0.88627451660000001" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                         <color key="tintColor" red="0.21960783" green="0.26666668059999998" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -42,7 +45,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBA-ET-SeJ" customClass="GameButtonViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="144" width="327" height="41"/>
+                                        <rect key="frame" x="0.0" y="158" width="327" height="48"/>
                                         <color key="backgroundColor" red="0.73333334920000004" green="0.88627451660000001" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                         <color key="tintColor" red="0.21960783" green="0.26666668059999998" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -53,7 +56,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EgS-8W-bxA" customClass="GameButtonViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="216" width="327" height="41"/>
+                                        <rect key="frame" x="0.0" y="237" width="327" height="48"/>
                                         <color key="backgroundColor" red="0.73333334920000004" green="0.88627451660000001" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                         <color key="tintColor" red="0.21960783" green="0.26666668059999998" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -64,6 +67,11 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="EgS-8W-bxA" firstAttribute="height" secondItem="X4r-Pn-OGv" secondAttribute="height" id="6MX-3N-nJy"/>
+                                    <constraint firstItem="pBA-ET-SeJ" firstAttribute="height" secondItem="X4r-Pn-OGv" secondAttribute="height" id="HUI-Zl-xb8"/>
+                                    <constraint firstItem="C8K-YC-km8" firstAttribute="height" secondItem="X4r-Pn-OGv" secondAttribute="height" id="jj6-BN-ZIa"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -139,8 +147,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBp-Tw-0Sc" customClass="GameButtonViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                <rect key="frame" x="24" y="556" width="327" height="41"/>
+                                <rect key="frame" x="24" y="549" width="327" height="48"/>
                                 <color key="backgroundColor" red="0.73333334920000004" green="0.88627451660000001" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="cVo-sL-ljT"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                 <color key="tintColor" red="0.21960783" green="0.26666668059999998" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
