@@ -162,7 +162,7 @@
                                 <rect key="frame" x="24" y="200" width="380" height="150"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Побед" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9A-N3-Dio">
-                                        <rect key="frame" x="30" y="59.333333333333307" width="75" height="31.666666666666664"/>
+                                        <rect key="frame" x="30" y="59" width="75" height="32"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                         <color key="textColor" red="0.95600536616161613" green="0.95600536616161613" blue="0.95600536616161613" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
@@ -170,7 +170,7 @@
                                         <size key="shadowOffset" width="1" height="3"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7N-xY-TLF">
-                                        <rect key="frame" x="284" y="59.333333333333307" width="16" height="31.666666666666664"/>
+                                        <rect key="frame" x="284" y="59" width="16" height="32"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                         <color key="textColor" red="0.95686274770000002" green="0.95686274770000002" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
@@ -197,7 +197,7 @@
                                 <rect key="frame" x="24" y="380" width="380" height="150"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Поражений" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z42-gw-70E">
-                                        <rect key="frame" x="30" y="59.333333333333307" width="135" height="31.666666666666664"/>
+                                        <rect key="frame" x="30" y="59" width="135" height="32"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                         <color key="textColor" red="0.95600536619999998" green="0.95600536619999998" blue="0.95600536619999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
@@ -205,7 +205,7 @@
                                         <size key="shadowOffset" width="1" height="3"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nj9-yO-S2l">
-                                        <rect key="frame" x="284" y="59.333333333333307" width="16" height="31.666666666666664"/>
+                                        <rect key="frame" x="284" y="59" width="16" height="32"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                         <color key="textColor" red="0.95686274770000002" green="0.95686274770000002" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
