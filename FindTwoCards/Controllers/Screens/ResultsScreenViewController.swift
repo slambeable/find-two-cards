@@ -9,13 +9,23 @@ import UIKit
 
 class ResultsScreenViewController: UIViewController {
 
+    @IBOutlet weak var numberOfVictories: UILabel!
+    @IBOutlet weak var numberOfDefeats: UILabel!
+    
+    var victories = ""
+    var defeats = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        numberOfVictories.text = "\(victories)"
+        numberOfDefeats.text = "\(defeats)"
     }
     
-
+    @IBAction func backButtonPressed() {
+        dismiss(animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 
