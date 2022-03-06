@@ -7,7 +7,7 @@
 
 class DataManager {
     
-    let shared = DataManager.init()
+    static let shared = DataManager.init()
     
     func getEmojiForCards() -> [String] {
         return ["🐦", "🐷", "🐮", "🐸", "🦊", "🐶"]

@@ -1,5 +1,5 @@
 //
-//  GameButtonViewController.swift
+//  GameButton.swift
 //  FindTwoCards
 //
 //  Created by Андрей Евдокимов on 01.03.2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class GameButtonViewController: UIButton {
+class GameButton: UIButton {
 
     override func awakeFromNib() {
         super.awakeFromNib()
