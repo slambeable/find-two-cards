@@ -21,11 +21,15 @@ extension UIAlertController {
         
         let scaledSize = CGSize(width: imgSize.width * ratio, height: imgSize.height * ratio)
         
-        let resizedImage = image.imageWithSize(scaledSize)
-        
+        // let resizedImage = image.imageWithSize(scaledSize)
+        let renderer = UIGraphicsImageRenderer(size: scaledSize)
+        let scaledImage = renderer.image { _ in
+            image.draw(in: CGRect(origin: .zero, size: scaledSize))
+        }
+
         let imgAction = UIAlertAction(title: "", style: .default, handler: nil)
         imgAction.isEnabled = false
-        imgAction.setValue(resizedImage.withRenderingMode(.alwaysOriginal), forKey: "image")
+        imgAction.setValue(scaledImage.withRenderingMode(.alwaysOriginal), forKey: "image")
         self.addAction(imgAction)
     }
 }
