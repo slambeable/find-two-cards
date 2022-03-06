@@ -16,8 +16,8 @@ class GameSegmentedControl: UISegmentedControl {
         // Drawing code
     }
     */
-    override func draw(_ rect: CGRect) {
-        super.draw(rect)
+    override func awakeFromNib() {
+        super.awakeFromNib()
         setGameStylesForGameSegmentedControl()
     }
     
