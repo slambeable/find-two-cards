@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,17 +13,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="StartScreenViewController" customModule="FindTwoCards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bubbles" translatesAutoresizingMaskIntoConstraints="NO" id="P5x-Ij-aYk">
-                                <rect key="frame" x="83" y="-32" width="280" height="268.5"/>
+                                <rect key="frame" x="83" y="-32" width="374" height="268.33333333333331"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="ze8-In-jya">
-                                <rect key="frame" x="24" y="205.5" width="272" height="257"/>
+                                <rect key="frame" x="24" y="289.66666666666669" width="366" height="257.00000000000006"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4r-Pn-OGv" customClass="GameButton" customModule="FindTwoCards" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="272" height="41"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="366" height="41"/>
                                         <color key="backgroundColor" red="0.73333334920000004" green="0.88627451660000001" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                         <color key="tintColor" red="0.21960783" green="0.26666668059999998" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -34,7 +34,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8K-YC-km8" customClass="GameButton" customModule="FindTwoCards" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="72" width="272" height="41"/>
+                                        <rect key="frame" x="0.0" y="72" width="366" height="41"/>
                                         <color key="backgroundColor" red="0.73333334920000004" green="0.88627451660000001" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                         <color key="tintColor" red="0.21960783" green="0.26666668059999998" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -45,7 +45,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBA-ET-SeJ" customClass="GameButton" customModule="FindTwoCards" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="144" width="272" height="41"/>
+                                        <rect key="frame" x="0.0" y="144" width="366" height="41"/>
                                         <color key="backgroundColor" red="0.73333334920000004" green="0.88627451660000001" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                         <color key="tintColor" red="0.21960783" green="0.26666668059999998" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -56,7 +56,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EgS-8W-bxA" customClass="GameButton" customModule="FindTwoCards" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="216" width="272" height="41"/>
+                                        <rect key="frame" x="0.0" y="216" width="366" height="41"/>
                                         <color key="backgroundColor" red="0.73333334920000004" green="0.88627451660000001" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                         <color key="tintColor" red="0.21960783" green="0.26666668059999998" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -96,20 +96,20 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="R7W-LN-7yZ" customClass="GameScreenViewController" customModule="FindTwoCards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k9a-JT-s7S">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bubbles" translatesAutoresizingMaskIntoConstraints="NO" id="jHh-8b-3e7">
-                                <rect key="frame" x="83" y="0.0" width="280" height="268.5"/>
+                                <rect key="frame" x="83" y="0.0" width="374" height="268.33333333333331"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="QrH-Ye-v5h">
-                                <rect key="frame" x="16" y="84" width="288" height="391"/>
+                                <rect key="frame" x="16" y="84" width="382" height="391"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="BlI-hq-ysa">
-                                        <rect key="frame" x="0.0" y="0.0" width="288" height="85"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="85"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cZ-5n-8sk" customClass="CardViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="66.5" height="85"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="98" height="85"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="85" id="hf7-FJ-1zC"/>
@@ -122,7 +122,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgo-k1-GAe" customClass="CardViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                                <rect key="frame" x="110.5" y="0.0" width="67" height="85"/>
+                                                <rect key="frame" x="142" y="0.0" width="98" height="85"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -132,7 +132,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="slu-ZZ-hn1" customClass="CardViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                                <rect key="frame" x="221.5" y="0.0" width="66.5" height="85"/>
+                                                <rect key="frame" x="284" y="0.0" width="98" height="85"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -150,10 +150,10 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="jq1-K5-sbq">
-                                        <rect key="frame" x="0.0" y="102" width="288" height="85"/>
+                                        <rect key="frame" x="0.0" y="102" width="382" height="85"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GH0-Sy-aX2" customClass="CardViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="66.5" height="85"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="98" height="85"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="85" id="LKh-Mq-4oI"/>
@@ -166,7 +166,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oNr-1f-dbz" customClass="CardViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                                <rect key="frame" x="110.5" y="0.0" width="67" height="85"/>
+                                                <rect key="frame" x="142" y="0.0" width="98" height="85"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -176,7 +176,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2BL-qH-6Ou" customClass="CardViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                                <rect key="frame" x="221.5" y="0.0" width="66.5" height="85"/>
+                                                <rect key="frame" x="284" y="0.0" width="98" height="85"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -194,10 +194,10 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="ciU-me-F65">
-                                        <rect key="frame" x="0.0" y="204" width="288" height="85"/>
+                                        <rect key="frame" x="0.0" y="204" width="382" height="85"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQE-lN-ylU" customClass="CardViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="66.5" height="85"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="98" height="85"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="85" id="cY5-55-Mb1"/>
@@ -210,7 +210,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXf-gQ-tFE" customClass="CardViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                                <rect key="frame" x="110.5" y="0.0" width="67" height="85"/>
+                                                <rect key="frame" x="142" y="0.0" width="98" height="85"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -220,7 +220,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhb-iA-kkX" customClass="CardViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                                <rect key="frame" x="221.5" y="0.0" width="66.5" height="85"/>
+                                                <rect key="frame" x="284" y="0.0" width="98" height="85"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -238,10 +238,10 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="mLL-oa-ir0">
-                                        <rect key="frame" x="0.0" y="306" width="288" height="85"/>
+                                        <rect key="frame" x="0.0" y="306" width="382" height="85"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ac3-el-UEY" customClass="CardViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="66.5" height="85"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="98" height="85"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="85" id="Xy6-qv-4uY"/>
@@ -254,7 +254,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUz-ZG-CSb" customClass="CardViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                                <rect key="frame" x="110.5" y="0.0" width="67" height="85"/>
+                                                <rect key="frame" x="142" y="0.0" width="98" height="85"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -264,7 +264,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PdG-Jk-xm0" customClass="CardViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                                <rect key="frame" x="221.5" y="0.0" width="66.5" height="85"/>
+                                                <rect key="frame" x="284" y="0.0" width="98" height="85"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -284,16 +284,16 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выберете пару" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4L-4j-E2d">
-                                <rect key="frame" x="51" y="20" width="218" height="38.5"/>
+                                <rect key="frame" x="98" y="20.000000000000004" width="218" height="38.333333333333343"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="RVH-VK-4rk">
-                                <rect key="frame" x="16" y="520" width="288" height="32"/>
+                                <rect key="frame" x="16" y="688" width="382" height="32"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timer" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="axU-gp-m6z">
-                                        <rect key="frame" x="0.0" y="0.5" width="32" height="31"/>
+                                        <rect key="frame" x="0.0" y="0.99999999999999822" width="32" height="30.666666666666664"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="32" id="93W-bH-Qbl"/>
@@ -301,17 +301,17 @@
                                         </constraints>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yeD-Ww-561">
-                                        <rect key="frame" x="48" y="5" width="240" height="22"/>
+                                        <rect key="frame" x="48" y="5" width="334" height="22"/>
                                         <subviews>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="Dxu-vd-ETO" customClass="ProgressBar" customModule="FindTwoCards" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="240" height="22"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="334" height="22"/>
                                                 <color key="tintColor" red="0.73333334920000004" green="0.88627451660000001" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="22" id="8tY-60-XFl"/>
                                                 </constraints>
                                             </progressView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6L-uY-9KM">
-                                                <rect key="frame" x="109.5" y="1" width="21" height="20.5"/>
+                                                <rect key="frame" x="156.66666666666666" y="1" width="21" height="20.333333333333332"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -373,7 +373,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="wXp-pr-RaW" customClass="FinalScreenViewController" customModule="FindTwoCards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YT7-Aq-ln8">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="vqB-Ef-aA2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -388,20 +388,20 @@
         <scene sceneID="j6p-EH-4Eo">
             <objects>
                 <viewController id="U9T-u2-z6R" customClass="ResultsScreenViewController" customModule="FindTwoCards" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="XZP-QL-9pI">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                    <view key="view" contentMode="scaleToFill" id="XZP-QL-9pI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bubbles" translatesAutoresizingMaskIntoConstraints="NO" id="yJC-a6-eld">
                                 <rect key="frame" x="115" y="0.0" width="335" height="268.33333333333331"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIy-zL-rKa" customClass="GameButtonViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                <rect key="frame" x="24" y="410" width="380" height="48"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIy-zL-rKa" customClass="GameButton" customModule="FindTwoCards" customModuleProvider="target">
+                                <rect key="frame" x="17" y="578" width="380" height="41"/>
                                 <color key="backgroundColor" red="0.73333334920000004" green="0.88627451660000001" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="380" id="ATN-c2-399"/>
-                                    <constraint firstAttribute="height" constant="48" id="Oib-B6-9Ay"/>
+                                    <constraint firstAttribute="height" constant="41" id="Oib-B6-9Ay"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                 <color key="tintColor" red="0.21960783" green="0.26666668059999998" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -411,19 +411,19 @@
                                     <action selector="backButtonPressed" destination="U9T-u2-z6R" eventType="touchUpInside" id="hKW-3c-bqS"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T0b-Q5-3wp">
-                                <rect key="frame" x="24" y="200" width="380" height="150"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T0b-Q5-3wp">
+                                <rect key="frame" x="24" y="200" width="366" height="150"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Побед" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9A-N3-Dio">
-                                        <rect key="frame" x="30" y="59" width="75" height="32"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Побед" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9A-N3-Dio">
+                                        <rect key="frame" x="20" y="59" width="71" height="32"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                         <color key="textColor" red="0.95600536616161613" green="0.95600536616161613" blue="0.95600536616161613" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" red="0.63921568627450975" green="0.77647058823529413" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <size key="shadowOffset" width="1" height="3"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" ambiguous="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7N-xY-TLF">
-                                        <rect key="frame" x="284" y="59" width="16" height="32"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7N-xY-TLF">
+                                        <rect key="frame" x="270" y="59" width="16" height="32"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                         <color key="textColor" red="0.95686274770000002" green="0.95686274770000002" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
@@ -446,8 +446,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qBc-v9-6ta">
-                                <rect key="frame" x="24" y="380" width="380" height="150"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qBc-v9-6ta">
+                                <rect key="frame" x="24" y="380" width="366" height="150"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Поражений" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z42-gw-70E">
                                         <rect key="frame" x="30" y="59" width="135" height="32"/>
@@ -457,8 +457,8 @@
                                         <color key="shadowColor" red="0.59607843137254901" green="0.42352941176470588" blue="0.59607843137254901" alpha="0.36718543046357616" colorSpace="custom" customColorSpace="displayP3"/>
                                         <size key="shadowOffset" width="1" height="3"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nj9-yO-S2l">
-                                        <rect key="frame" x="284" y="59" width="16" height="32"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nj9-yO-S2l">
+                                        <rect key="frame" x="270" y="59" width="16" height="32"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                         <color key="textColor" red="0.95686274770000002" green="0.95686274770000002" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
@@ -494,7 +494,7 @@
                             <constraint firstItem="qBc-v9-6ta" firstAttribute="leading" secondItem="uNP-8j-cuM" secondAttribute="leading" constant="24" id="aSs-Te-eEW"/>
                             <constraint firstItem="T0b-Q5-3wp" firstAttribute="leading" secondItem="uNP-8j-cuM" secondAttribute="leading" constant="24" id="dGG-Sl-F2Q"/>
                             <constraint firstItem="HIy-zL-rKa" firstAttribute="centerX" secondItem="XZP-QL-9pI" secondAttribute="centerX" id="eAh-Zz-fJJ"/>
-                            <constraint firstItem="uNP-8j-cuM" firstAttribute="bottom" secondItem="HIy-zL-rKa" secondAttribute="bottom" constant="90" id="zjx-TZ-3Kq"/>
+                            <constraint firstItem="uNP-8j-cuM" firstAttribute="bottom" secondItem="HIy-zL-rKa" secondAttribute="bottom" constant="97" id="zjx-TZ-3Kq"/>
                         </constraints>
                     </view>
                     <connections>
@@ -511,14 +511,14 @@
             <objects>
                 <viewController id="M1W-58-2jF" customClass="SettingsScreenViewController" customModule="FindTwoCards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ng9-xl-cad">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bubbles" translatesAutoresizingMaskIntoConstraints="NO" id="b6z-ql-mJU">
-                                <rect key="frame" x="83" y="1" width="280" height="268.5"/>
+                                <rect key="frame" x="83" y="1" width="374" height="268.33333333333331"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBp-Tw-0Sc" customClass="GameButton" customModule="FindTwoCards" customModuleProvider="target">
-                                <rect key="frame" x="24" y="437" width="272" height="41"/>
+                                <rect key="frame" x="24" y="605" width="366" height="41"/>
                                 <color key="backgroundColor" red="0.73333334920000004" green="0.88627451660000001" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                 <color key="tintColor" red="0.21960783" green="0.26666668059999998" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -530,7 +530,7 @@
                                 </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xbR-5c-UsN" customClass="GameSegmentedControl" customModule="FindTwoCards" customModuleProvider="target">
-                                <rect key="frame" x="24" y="81" width="272" height="32"/>
+                                <rect key="frame" x="24" y="80.666666666666671" width="366" height="32"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <segments>
                                     <segment title="60"/>
@@ -543,13 +543,13 @@
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уровень сложности" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJB-zS-fsD">
-                                <rect key="frame" x="24" y="24" width="223" height="29"/>
+                                <rect key="frame" x="23.999999999999986" y="24" width="222.66666666666663" height="28.666666666666671"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выберите время прохождения" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCE-yZ-nbK">
-                                <rect key="frame" x="24" y="126" width="233" height="19.5"/>
+                                <rect key="frame" x="24" y="125.66666666666667" width="233" height="19.333333333333329"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="233" id="fbb-F5-YbH"/>
                                 </constraints>
@@ -558,7 +558,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выберите цвет карт" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1e-dS-9Xl">
-                                <rect key="frame" x="24" y="190.5" width="224" height="29"/>
+                                <rect key="frame" x="24" y="190" width="224" height="28.666666666666657"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="224" id="kTR-yM-KOB"/>
                                 </constraints>
@@ -567,10 +567,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="hE6-bz-Ion">
-                                <rect key="frame" x="24" y="239.5" width="272" height="82"/>
+                                <rect key="frame" x="24" y="238.66666666666666" width="366" height="107.33333333333334"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3z-pu-KIe" customClass="CardViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="72.5" height="82"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="107.33333333333333"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -580,7 +580,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iAa-Os-NGE" customClass="CardViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                        <rect key="frame" x="99.5" y="0.0" width="73" height="82"/>
+                                        <rect key="frame" x="136" y="0.0" width="94" height="107.33333333333333"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -590,7 +590,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pU3-26-AAr" customClass="CardViewController" customModule="FindTwoCards" customModuleProvider="target">
-                                        <rect key="frame" x="199.5" y="0.0" width="72.5" height="82"/>
+                                        <rect key="frame" x="272" y="0.0" width="94" height="107.33333333333333"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -647,7 +647,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bubbles" width="289.5" height="268.5"/>
+        <image name="bubbles" width="289.66665649414062" height="268.33334350585938"/>
         <image name="timer" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
