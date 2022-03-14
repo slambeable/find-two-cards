@@ -9,9 +9,10 @@ import UIKit
 
 class SettingsScreenViewController: UIViewController {
     
+    @IBOutlet var gameSegmentedControl: GameSegmentedControl!
     @IBOutlet var cardsButton: [CardViewController]!
     
-    var colorsForGradient = [
+    let colorsForGradient = [
         [
             UIColor(red: 0.714, green: 1, blue: 0.765, alpha: 1).cgColor,
             UIColor(red: 1, green: 0.714, blue: 0.989, alpha: 1).cgColor
@@ -26,6 +27,8 @@ class SettingsScreenViewController: UIViewController {
         ]
     ]
     
+    let difficult = ["60", "45", "30"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -37,7 +40,11 @@ class SettingsScreenViewController: UIViewController {
             card.setColor(colorsForGradient[index])
         }
         
-        cardsButton.first?.selectCard()
+        let indexForCardSelected = colorsForGradient.firstIndex(of: StorageManager.shared.currentColorOfCard) ?? 0
+        cardsButton[indexForCardSelected].selectCard()
+        
+        let indexForSegmentedControlSelected = difficult.firstIndex(of: StorageManager.shared.currentDifficult.rawValue) ?? 0
+        gameSegmentedControl.selectedSegmentIndex = indexForSegmentedControlSelected
     }
     
     @IBAction func changeGradientForCards(_ sender: CardViewController) {

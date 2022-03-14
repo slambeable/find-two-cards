@@ -8,11 +8,9 @@
 import UIKit
 
 class CardViewController: UIButton {
-
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    
-    var gradientColors: [CGColor]? = nil
+    var gradientColors: [CGColor]?
+    var id: Int?
+    var emoji: String?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -51,5 +49,10 @@ class CardViewController: UIButton {
 
     func unselectCard() {
         layer.borderColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.5).cgColor
+    }
+    
+    func setParametersForCard(with card: Card) {
+        self.id = card.pairId
+        self.emoji = card.emoji
     }
 }

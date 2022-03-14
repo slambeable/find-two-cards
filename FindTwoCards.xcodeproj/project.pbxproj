@@ -21,14 +21,13 @@
 		6D072D4227CDA69D00835373 /* ResultsScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D072D4127CDA69D00835373 /* ResultsScreenViewController.swift */; };
 		6D072D4427CDA6BB00835373 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D072D4327CDA6BB00835373 /* CardViewController.swift */; };
 		6D072D4627CDA72400835373 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D072D4527CDA72400835373 /* ShareViewController.swift */; };
-		6D072D4827CDA76A00835373 /* TimerProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D072D4727CDA76A00835373 /* TimerProgressViewController.swift */; };
+		6D072D4827CDA76A00835373 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D072D4727CDA76A00835373 /* ProgressBar.swift */; };
 		6D072D4A27CDA78E00835373 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D072D4927CDA78E00835373 /* DataManager.swift */; };
 		6D072D4C27CDA79D00835373 /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D072D4B27CDA79D00835373 /* GameLogic.swift */; };
 		6D072D5027CDB6E400835373 /* GameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D072D4F27CDB6E400835373 /* GameButton.swift */; };
 		6DA9BDE027CE38A1004C7A3B /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9BDDF27CE38A1004C7A3B /* StorageManager.swift */; };
 		6DA9BDE227CE4A0C004C7A3B /* UISegmentedControl+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9BDE127CE4A0C004C7A3B /* UISegmentedControl+Style.swift */; };
 		6DA9BDE427CE4AB4004C7A3B /* GameSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9BDE327CE4AB4004C7A3B /* GameSegmentedControl.swift */; };
-		9C00897927D0F743000CFDBE /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C00897827D0F742000CFDBE /* UIImage+Resize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +47,7 @@
 		6D072D4127CDA69D00835373 /* ResultsScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsScreenViewController.swift; sourceTree = "<group>"; };
 		6D072D4327CDA6BB00835373 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		6D072D4527CDA72400835373 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
-		6D072D4727CDA76A00835373 /* TimerProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerProgressViewController.swift; sourceTree = "<group>"; };
+		6D072D4727CDA76A00835373 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		6D072D4927CDA78E00835373 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		6D072D4B27CDA79D00835373 /* GameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
 		6D072D4F27CDB6E400835373 /* GameButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameButton.swift; sourceTree = "<group>"; };
@@ -132,7 +131,7 @@
 				6D072D3927CDA62300835373 /* Screens */,
 				6D072D4327CDA6BB00835373 /* CardViewController.swift */,
 				6D072D4527CDA72400835373 /* ShareViewController.swift */,
-				6D072D4727CDA76A00835373 /* TimerProgressViewController.swift */,
+				6D072D4727CDA76A00835373 /* ProgressBar.swift */,
 				6D072D4F27CDB6E400835373 /* GameButton.swift */,
 				6DA9BDE327CE4AB4004C7A3B /* GameSegmentedControl.swift */,
 			);
@@ -253,7 +252,7 @@
 				6D072D1F27CDA45B00835373 /* StartScreenViewController.swift in Sources */,
 				6D072D4627CDA72400835373 /* ShareViewController.swift in Sources */,
 				6D072D4227CDA69D00835373 /* ResultsScreenViewController.swift in Sources */,
-				6D072D4827CDA76A00835373 /* TimerProgressViewController.swift in Sources */,
+				6D072D4827CDA76A00835373 /* ProgressBar.swift in Sources */,
 				6D072D3427CDA5A100835373 /* UIAlertController+Image.swift in Sources */,
 				6D072D4027CDA68D00835373 /* GameScreenViewController.swift in Sources */,
 				6DA9BDE227CE4A0C004C7A3B /* UISegmentedControl+Style.swift in Sources */,

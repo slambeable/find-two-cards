@@ -8,6 +8,8 @@
 import UIKit
 
 class FinalScreenViewController: UIViewController {
+    
+    var isGameWin: Bool!
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -25,9 +25,9 @@ class StorageManager {
 }
 
 extension StorageManager {
-    enum DifficultSettings: Int {
-        case easy = 60
-        case medium = 45
-        case hard = 30
+    enum DifficultSettings: String {
+        case easy = "60"
+        case medium = "45"
+        case hard = "30"
     }
 }

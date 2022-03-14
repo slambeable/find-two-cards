@@ -6,14 +6,14 @@
 //
 
 class Card {
-    
     let emoji: String
     let pairId: Int
-    let color: [String: Int]
-
-    init (emoji: String, pairId: Int, color: [String: Int]) {
+    
+    var isFacedUp = false
+    var isMatched = false
+    
+    init(emoji: String, pairId: Int) {
         self.emoji = emoji
         self.pairId = pairId
-        self.color = color
     }
 }
