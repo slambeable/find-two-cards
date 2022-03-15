@@ -18,7 +18,7 @@ class FinalScreenViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        difficultButton.setTitle(isGameWin ? "Повысить +15 сек" : "Понизить -15 сек", for: .normal)
+        difficultButton.setTitle(isGameWin ? "Повысить сложность +15 сек" : "Понизить сложность -15 сек", for: .normal)
         labelResult()
         victories()
     }
