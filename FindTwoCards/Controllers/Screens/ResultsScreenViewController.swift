@@ -12,8 +12,8 @@ class ResultsScreenViewController: UIViewController {
     @IBOutlet weak var numberOfVictories: UILabel!
     @IBOutlet weak var numberOfDefeats: UILabel!
     
-    var victories = ""
-    var defeats = ""
+    var victories = StorageManager.shared.winCounter / 12
+    var defeats = StorageManager.shared.looseCounter
     
     override func viewDidLoad() {
         super.viewDidLoad()

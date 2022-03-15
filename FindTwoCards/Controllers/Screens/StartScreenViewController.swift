@@ -2,7 +2,7 @@
 //  StartScreenViewController.swift
 //  FindTwoCards
 //
-//  Created by Андрей Евдокимов on 01.03.2022.
+//  Created by Богдан Олейник on 01.03.2022.
 //
 
 import UIKit
@@ -15,10 +15,14 @@ class StartScreenViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    // Реализация unwind с finalScreen
+    @IBAction func unwindSegue(segue: UIStoryboardSegue) {
+        
+    }
+    
     override var prefersStatusBarHidden: Bool {
         return true
     }
-    
     
     @IBAction func showPopUp() {
         let alertController = UIAlertController(

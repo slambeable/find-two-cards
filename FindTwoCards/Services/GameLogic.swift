@@ -31,7 +31,7 @@ class GameLogic {
         switch chooseCardCounter {
         case 0:
             chosenCards.append(cards[indexOfCard])
-            cards[indexOfCard].isFacedUp = true
+            cards[indexOfCard].isFacedUp = true 
             chooseCardCounter += 1
         case 1:
             if !(chosenCards.first === cards[indexOfCard]) {
