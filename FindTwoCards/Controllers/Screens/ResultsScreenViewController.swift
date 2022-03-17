@@ -12,7 +12,7 @@ class ResultsScreenViewController: UIViewController {
     @IBOutlet weak var numberOfVictories: UILabel!
     @IBOutlet weak var numberOfDefeats: UILabel!
     
-    var victories = StorageManager.shared.winCounter / 12
+    var victories = StorageManager.shared.winCounter
     var defeats = StorageManager.shared.looseCounter
     
     override func viewDidLoad() {
@@ -24,6 +24,11 @@ class ResultsScreenViewController: UIViewController {
     
     @IBAction func backButtonPressed() {
         dismiss(animated: true)
+    }
+    @IBAction func shareButton(_ sender: Any) {
+        let shareController = UIActivityViewController(activityItems: [victories, defeats], applicationActivities: nil)
+        
+        present(shareController, animated: true, completion: nil)
     }
     
     /*
