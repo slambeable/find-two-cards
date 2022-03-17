@@ -86,11 +86,11 @@ class GameScreenViewController: UIViewController {
                 button.layer.opacity = 0
                 button.isUserInteractionEnabled = false
             }
-
-            if gameLogic.counterOfFindPairs == gameLogic.cards.count {
-                isGameWin = true
-                performSegue(withIdentifier: "final", sender: nil)
-            }
+        }
+        
+        if gameLogic.counterOfFindPairs == gameLogic.cards.count {
+            isGameWin = true
+            performSegue(withIdentifier: "final", sender: nil)
         }
     }
 }
