@@ -48,6 +48,10 @@ class GameScreenViewController: UIViewController {
         finalScreen.isGameWin = isGameWin
     }
     
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
     func fireTimer(_ isEnd: Bool) {
         if !isEnd {
             timeLabel.text = progressBarView.runCount >= 0 ? String(progressBarView.runCount) : "0"

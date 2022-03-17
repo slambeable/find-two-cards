@@ -37,6 +37,10 @@ class FinalScreenViewController: UIViewController {
         }
     }
     
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
     @IBAction func difficultButton(_ sender: Any) {
     }
   
