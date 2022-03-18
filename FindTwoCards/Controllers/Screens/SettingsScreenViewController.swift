@@ -11,7 +11,7 @@ class SettingsScreenViewController: UIViewController {
     
     @IBOutlet var gameSegmentedControl: GameSegmentedControl!
     @IBOutlet var cardsButton: [CardViewController]!
-    
+
     let colorsForGradient = [
         [
             UIColor(red: 0.714, green: 1, blue: 0.765, alpha: 1).cgColor,
@@ -35,7 +35,6 @@ class SettingsScreenViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        
         for (index, card) in cardsButton.enumerated() {
             card.setColor(colorsForGradient[index])
         }

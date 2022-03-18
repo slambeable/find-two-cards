@@ -13,8 +13,8 @@ class GameScreenViewController: UIViewController {
     @IBOutlet var progressBarView: ProgressBar!
     @IBOutlet var cardButtons: [CardViewController]!
     
-    let gameLogic = GameLogic()
-    let secondForRound = StorageManager.shared.currentDifficult.rawValue
+    private let gameLogic = GameLogic()
+    private let secondForRound = StorageManager.shared.currentDifficult.rawValue
     
     var isGameWin = false
     

@@ -31,6 +31,10 @@ class CardViewController: UIButton {
 
 
     func setColor(_ colors: [CGColor]) {
+        if layer.sublayers?.count ?? 0 >= 2 {
+            layer.sublayers?.remove(at: 0)
+        }
+
         let gradientLayer = CAGradientLayer()
         gradientLayer.colors = colors
         gradientLayer.locations = [0.0, 1.0]
