@@ -13,21 +13,14 @@ class FinalScreenViewController: UIViewController {
     @IBOutlet var difficultButton: GameButton!
     
     var isGameWin: Bool!
-    var resultLabel = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         difficultButton.setTitle(isGameWin ? "Повысить сложность -15 сек" : "Понизить сложность +15 сек", for: .normal)
+        isGameResult.text = isGameWin ? "Победа 😸" : "Поражение 😿"
         buttonExaminationOne()
-        buttonExaminationTwo()
-        labelResult()
         victories()
-    }
-    
-    func labelResult() {
-        resultLabel = isGameWin ? "Победа 😸" : "Поражение 😿"
-        isGameResult.text = resultLabel
     }
     
     func victories() {
@@ -57,8 +50,10 @@ class FinalScreenViewController: UIViewController {
         case .medium:
             if isGameWin {
                 StorageManager.shared.currentDifficult = .hard
+                difficultButton.isEnabled = false
             } else {
                 StorageManager.shared.currentDifficult = .easy
+                difficultButton.isEnabled = false
             }
         case .hard:
             if isGameWin {
@@ -72,10 +67,7 @@ class FinalScreenViewController: UIViewController {
     func buttonExaminationOne() {
         if isGameWin && StorageManager.shared.currentDifficult == .hard {
             difficultButton.isEnabled = false
-        }
-    }
-    func buttonExaminationTwo() {
-        if isGameWin && StorageManager.shared.currentDifficult == .hard {
+        } else if !isGameWin && StorageManager.shared.currentDifficult == .easy {
             difficultButton.isEnabled = false
         }
     }

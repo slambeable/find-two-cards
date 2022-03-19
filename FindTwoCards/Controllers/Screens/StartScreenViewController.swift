@@ -15,7 +15,6 @@ class StartScreenViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    // Реализация unwind с finalScreen
     @IBAction func unwindSegue(segue: UIStoryboardSegue) {
         
     }
