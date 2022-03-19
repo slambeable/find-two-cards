@@ -38,7 +38,7 @@ class FinalScreenViewController: UIViewController {
     @IBAction func difficultButton(_ sender: Any) {
         buttonRaise()
     }
-  
+
     func buttonRaise() {
         switch StorageManager.shared.currentDifficult {
         case .easy:

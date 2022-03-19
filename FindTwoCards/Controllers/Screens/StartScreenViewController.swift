@@ -16,7 +16,6 @@ class StartScreenViewController: UIViewController {
     }
     
     @IBAction func unwindSegue(segue: UIStoryboardSegue) {
-        
     }
     
     override var prefersStatusBarHidden: Bool {

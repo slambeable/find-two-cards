@@ -68,6 +68,7 @@ class GameScreenViewController: UIViewController {
                 progressBarView.tintColor = .red
             }
         } else {
+            isGameWin = false
             performSegue(withIdentifier: "final", sender: nil)
         }
     }
@@ -93,6 +94,7 @@ class GameScreenViewController: UIViewController {
         }
         
         if gameLogic.counterOfFindPairs == gameLogic.cards.count {
+            progressBarView.stopTimer()
             isGameWin = true
             performSegue(withIdentifier: "final", sender: nil)
         }

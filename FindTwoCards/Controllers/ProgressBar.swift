@@ -29,6 +29,10 @@ class ProgressBar: UIProgressView {
         )
     }
     
+    func stopTimer() {
+        timer?.invalidate()
+    }
+    
     @objc private func fireTimer(target: Timer) {
         guard let userInfo = target.userInfo as? (Bool) -> Void else { return }
 
