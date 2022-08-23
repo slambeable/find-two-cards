@@ -12,7 +12,7 @@ class SettingsScreenViewController: UIViewController {
     @IBOutlet var gameSegmentedControl: GameSegmentedControl!
     @IBOutlet var cardsButton: [CardViewController]!
 
-    let colorsForGradient = [
+    private let colorsForGradient = [
         [
             UIColor(red: 0.714, green: 1, blue: 0.765, alpha: 1).cgColor,
             UIColor(red: 1, green: 0.714, blue: 0.989, alpha: 1).cgColor
@@ -27,11 +27,7 @@ class SettingsScreenViewController: UIViewController {
         ]
     ]
     
-    let difficult = ["60", "45", "30"]
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+    private let difficult = ["60", "45", "30"]
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
@@ -39,10 +35,10 @@ class SettingsScreenViewController: UIViewController {
             card.setColor(colorsForGradient[index])
         }
         
-        let indexForCardSelected = colorsForGradient.firstIndex(of: StorageManager.shared.currentColorOfCard) ?? 0
+        let indexForCardSelected = colorsForGradient.firstIndex(of: DataManager.shared.currentColorOfCard) ?? 0
         cardsButton[indexForCardSelected].selectCard()
         
-        let indexForSegmentedControlSelected = difficult.firstIndex(of: StorageManager.shared.currentDifficult.rawValue) ?? 0
+        let indexForSegmentedControlSelected = difficult.firstIndex(of: DataManager.shared.currentDifficult.rawValue) ?? 0
         gameSegmentedControl.selectedSegmentIndex = indexForSegmentedControlSelected
     }
     
@@ -54,7 +50,7 @@ class SettingsScreenViewController: UIViewController {
         sender.selectCard()
 
         if let gradientColors = sender.gradientColors {
-            StorageManager.shared.currentColorOfCard = gradientColors
+            DataManager.shared.currentColorOfCard = gradientColors
         }
     }
 
@@ -62,16 +58,12 @@ class SettingsScreenViewController: UIViewController {
         let index = sender.selectedSegmentIndex
         
         switch index {
-        case 0: StorageManager.shared.currentDifficult = .easy
-        case 1: StorageManager.shared.currentDifficult = .medium
-        case 2: StorageManager.shared.currentDifficult = .hard
+        case 0: DataManager.shared.currentDifficult = .easy
+        case 1: DataManager.shared.currentDifficult = .medium
+        case 2: DataManager.shared.currentDifficult = .hard
         default:
             print("Error")
         }
         
-    }
-    
-    @IBAction func closeScreen() {
-        dismiss(animated: true)
     }
 }

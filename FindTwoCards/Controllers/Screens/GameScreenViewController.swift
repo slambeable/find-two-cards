@@ -14,9 +14,9 @@ class GameScreenViewController: UIViewController {
     @IBOutlet var cardButtons: [CardViewController]!
     
     private let gameLogic = GameLogic()
-    private let secondForRound = StorageManager.shared.currentDifficult.rawValue
+    private let secondForRound = DataManager.shared.currentDifficult.rawValue
     
-    var isGameWin = false
+    private var isGameWin = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,7 +35,7 @@ class GameScreenViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        let currentColor = StorageManager.shared.currentColorOfCard
+        let currentColor = DataManager.shared.currentColorOfCard
         
         for card in cardButtons {
             card.setColor(currentColor)

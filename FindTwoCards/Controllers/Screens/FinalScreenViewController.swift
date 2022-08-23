@@ -23,51 +23,47 @@ class FinalScreenViewController: UIViewController {
         victories()
     }
     
-    func victories() {
-        if isGameWin {
-            StorageManager.shared.winCounter += 1
-        } else {
-            StorageManager.shared.looseCounter += 1
-        }
-    }
-    
     override var prefersStatusBarHidden: Bool {
-        return true
+        true
     }
     
     @IBAction func difficultButton(_ sender: Any) {
-        buttonRaise()
-    }
-
-    func buttonRaise() {
-        switch StorageManager.shared.currentDifficult {
+        switch DataManager.shared.currentDifficult {
         case .easy:
             if isGameWin {
-                StorageManager.shared.currentDifficult = .medium
+                DataManager.shared.currentDifficult = .medium
             } else {
                 difficultButton.isEnabled = false
             }
         case .medium:
             if isGameWin {
-                StorageManager.shared.currentDifficult = .hard
+                DataManager.shared.currentDifficult = .hard
                 difficultButton.isEnabled = false
             } else {
-                StorageManager.shared.currentDifficult = .easy
+                DataManager.shared.currentDifficult = .easy
                 difficultButton.isEnabled = false
             }
         case .hard:
             if isGameWin {
                 difficultButton.isEnabled = false
             } else {
-                StorageManager.shared.currentDifficult = .medium
+                DataManager.shared.currentDifficult = .medium
             }
         }
     }
     
-    func buttonExaminationOne() {
-        if isGameWin && StorageManager.shared.currentDifficult == .hard {
+    private func victories() {
+        if isGameWin {
+            DataManager.shared.winCounter += 1
+        } else {
+            DataManager.shared.looseCounter += 1
+        }
+    }
+    
+    private func buttonExaminationOne() {
+        if isGameWin && DataManager.shared.currentDifficult == .hard {
             difficultButton.isEnabled = false
-        } else if !isGameWin && StorageManager.shared.currentDifficult == .easy {
+        } else if !isGameWin && DataManager.shared.currentDifficult == .easy {
             difficultButton.isEnabled = false
         }
     }

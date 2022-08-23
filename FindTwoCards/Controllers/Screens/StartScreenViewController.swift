@@ -9,17 +9,11 @@ import UIKit
 
 class StartScreenViewController: UIViewController {
     
-    @IBOutlet var startScreenButtons: [UIButton]!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
     @IBAction func unwindSegue(segue: UIStoryboardSegue) {
     }
     
     override var prefersStatusBarHidden: Bool {
-        return true
+        true
     }
     
     @IBAction func showPopUp() {
