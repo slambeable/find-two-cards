@@ -11,4 +11,7 @@ git clone https://github.com/slambeable/find-two-cards/
 
 ## Usage
 
-[![Usage](https://leonardo.osnova.io/c363419c-1d77-5a37-8e50-d4a986dad143/-/format/mp4/)
+
+https://user-images.githubusercontent.com/41022916/186046274-2c940c1e-b1aa-44be-a508-79a3ae6ed6ff.mp4
+
+
